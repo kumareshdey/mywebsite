@@ -1,0 +1,157 @@
+.heading
+{
+	float:left;
+	width: 1345px;
+	height: auto;
+	background-image: url(background.jpg);
+	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px auto;
+}
+
+.logo{
+	float: left;
+}
+.top_nav ul li
+{
+	float:left;
+	margin-left: 70px;
+	display: inline-flex;
+	padding: 37px 0px 0px 0px;
+	text-shadow: 3px 3px 5px #000000;
+	font-family: Papyrus;
+	font-weight: none;
+	font-stretch: ultra-expanded;
+	font-family:Impact;
+	
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	 -webkit-transition: width 2s, height 2s, -webkit-transform 1s; /* Safari */
+    transition: width 2s, height 2s, transform 1s;
+	
+}
+a:hover{
+	text-decoration: underline;
+	font-size: 23px;	
+	-webkit-animation: rubberBand 2s;
+  animation: rubberBand 2s ;
+}
+a:visited{
+	background-color: orange;
+	padding: 10px 10px;
+	
+}
+#clear{
+	clear: both;
+}
+.me{
+	border-radius: 170px;
+	margin: 70px 100px 100px 100px;
+	float: left;
+	animation: pic 5s;
+}
+@keyframes pic{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.body{
+	padding-top:200px;
+}
+h1,h3{
+	color:white;
+	font-family: Lucida Sans Unicode;
+	text-shadow: 3px 3px 5px #000000;
+	-webkit-animation: zoomInDown 2s;
+  animation: zoomInDown 2s;
+}
+
+p{
+	font-family: Papyrus;
+	font-size: 20px;
+	margin-right: 70px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	animation: opacity 2s;
+}
+@keyframes opacity {
+  from {
+	  opacity: 0; 
+  }
+
+  to {
+	 opacity: 1;
+  }
+
+}
+footer
+{
+	padding: 0px;
+	font-family: Brush Script MT ;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+.fb
+{
+	height: 50px;
+	width: 50px;
+	margin: 0px 650px 20px 650px;
+	
+}
+.download{
+	border:2px dotted white;
+	font-size:23px;
+	background-color:grey;
+}
+.side_nav{
+	float: left;
+	font-color: white;
+	display: inline-flex;
+	padding-right:50px;
+	padding-bottom:100%;
+	padding-top:5%;
+	text-shadow: 3px 3px 5px #000000;
+	font-family: Papyrus;
+	font-weight: none;
+	font-stretch: ultra-expanded;
+	font-family:Impact;	
+	background-color: orange;
+	position: fixed;
+}
+#side{
+	font-size: 22px;
+}
+	
+#side:hover{
+	font-size:22px;
+	
+}
+.about_h1{
+	margin-left: 30%;
+	margin-right: 100px;
+	padding-top: 100px;
+}
+.about_p{
+	margin-left: 30%;
+	margin-right: 100px;
+	padding-bottom:450px;
+}
+.contact_h2{
+	text-align:center;
+	padding-bottom:30px;
+	color: rgb(210,255,74);
+	text-shadow: 3px 3px 5px rgb(140,187,0);
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	animation:lightSpeedIn 3s;
+	
+	
+}

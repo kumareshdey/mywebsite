@@ -2,15 +2,77 @@
 	<html>
 		<head>
 			<meta charset="utf-8">
-			<title>kd webstar</title>
+			 <title>KUMARESH DEY</title>
+			 <link rel="icon" href="coollogo_com-18255754.gif" type="image/png">
 			<link rel="stylesheet" href="main.css"/>
+			<link rel="stylesheet" href="animate.css"/>
+			<link rel="stylesheet" href="font-awesome.min.css"/>
 		</head>
 		<body>
 			<div class="heading">
-				<img src="KD.gif" alt="LOGO"/>
-				<ul>
-					<li><a href="index.html">GO BACK IT IS UNDER CONSTRUCTION</a></li>
-				</ul>
+			
+				<header>
+					<a href="index.html">
+					<img src="kd.png" alt="LOGO" class="logo"/>
+					</a>
+					<nav class="top_nav">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT MYSELF</a></li>
+						<li><a href="construction.html">GALLERY</a></li>
+						<li><a href="contact.html">CONTACT ME</a></li>
+						<li><a href="kumaresh dey resume.pdf" class="download" download>RESUME</a></li>
+					</ul>
+					</nav>
+					<div id="clear"></div>
+					<div class="body">
+						<div class="row">
+						  <div class="column">
+						    <img src="img_nature.jpg" alt="Nature" onclick="myFunction(this);">
+						  </div>
+						  <div class="column">
+						    <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+						  </div>
+						  <div class="column">
+						    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+						  </div>
+						  <div class="column">
+						    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+						  </div>
+						</div>
+
+						<!-- The expanding image container -->
+						<div class="container">
+						  <!-- Close the image -->
+						  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+						  <!-- Expanded image -->
+						  <img id="expandedImg" style="width:100%">
+
+						  <!-- Image text -->
+						  <div id="imgtext"></div>
+						</div>
+						
+				</header>
+				<div id="clear"></div>
+				<footer>
+					<a href="https://www.facebook.com/kumar.dey.37">
+					<img src="facebook.png" class="fb">
+					</a>
+					This website is made by Kumaresh Dey.
+					<br/>
+					  <script type="text/javascript">
+							if( sessionStorage.hits ){
+							sessionStorage.hits = Number(sessionStorage.hits) +1;
+						 }
+						 
+						 else{
+							sessionStorage.hits = 1;
+						 }
+						 document.write("Total Hits :" + sessionStorage.hits );
+					  </script>
+				</footer>
 			</div>
+			
 		</body>
 	</html>

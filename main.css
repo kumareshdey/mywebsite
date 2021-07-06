@@ -9,11 +9,11 @@
 
 .logo{
 	float: left;
-	width:250px;
+	width:200px;
 }
 .top_nav ul li
 {
-	float:left;
+	float:center;
 	margin-left: 70px;
 	display: inline-flex;
 	padding: 37px 0px 0px 0px;

@@ -1,8 +1,6 @@
 .heading
 {
-	float:left;
-	width: 1345px;
-	height: auto;
+	background-size: auto;
 	background-image: url(background.jpg);
 	background-attachment: fixed;
 	padding: 0px;

@@ -123,7 +123,8 @@ footer
 	font-weight: none;
 	font-stretch: ultra-expanded;
 	font-family:Impact;	
-	background-color: orange;
+	margin-top: 30%;
+	
 	position: fixed;
 }
 #side{
@@ -131,7 +132,7 @@ footer
 }
 	
 #side:hover{
-	font-size:22px;
+	font-size:24px;
 	
 }
 .about_h1{

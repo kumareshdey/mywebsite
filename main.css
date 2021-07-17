@@ -42,6 +42,7 @@ a:hover{
 a:visited{
 	background-color: orange;
 	padding: 10px 10px;
+	animation: backOutDown 2s ;
 	
 }
 #clear{
@@ -51,7 +52,7 @@ a:visited{
 	border-radius: 170px;
 	margin: 70px 100px 100px 100px;
 	float: left;
-	animation: pic 5s;
+	animation: bounceInLeft 5s;
 }
 @keyframes pic{
 	from{
@@ -69,7 +70,7 @@ h1,h3{
 	font-family: Lucida Sans Unicode;
 	text-shadow: 3px 3px 5px #000000;
 	-webkit-animation: zoomInDown 2s;
-  animation: zoomInDown 2s;
+  animation: bounce 2s;
 }
 
 p{
@@ -79,7 +80,7 @@ p{
 	font-weight: bold;
 	
 	color: white;
-	animation: opacity 2s;
+	animation: backInUp 2s;
 }
 @keyframes opacity {
   from {

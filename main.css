@@ -78,9 +78,8 @@ p{
 	font-size: 20px;
 	margin-right: 70px;
 	font-weight: bold;
-	
 	color: white;
-	animation: backInUp 2s;
+	animation: zoomIn 2s;
 }
 @keyframes opacity {
   from {
@@ -151,7 +150,7 @@ footer
 	color: white;
 	text-shadow: 3px 3px 5px rgb(140,187,0);
 	font-family:"Comic Sans MS", cursive, sans-serif;
-	animation:lightSpeedIn 3s;
+	animation:slideInDown 1s;
 	
 	
 }
